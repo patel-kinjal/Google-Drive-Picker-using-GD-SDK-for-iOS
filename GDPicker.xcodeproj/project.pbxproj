@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26D0FF3289A375CD83C3E422 /* libPods-GDPickerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79721F646C52CC40CCC4A6 /* libPods-GDPickerUITests.a */; };
 		AD5DD9C61F153FD40005F1C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DD9C51F153FD40005F1C8 /* main.m */; };
 		AD5DD9C91F153FD40005F1C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DD9C81F153FD40005F1C8 /* AppDelegate.m */; };
 		AD5DD9CC1F153FD40005F1C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DD9CB1F153FD40005F1C8 /* ViewController.m */; };
@@ -15,6 +16,20 @@
 		AD5DD9D41F153FD40005F1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5DD9D21F153FD40005F1C8 /* LaunchScreen.storyboard */; };
 		AD5DD9DF1F153FD40005F1C8 /* GDPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DD9DE1F153FD40005F1C8 /* GDPickerTests.m */; };
 		AD5DD9EA1F153FD40005F1C8 /* GDPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DD9E91F153FD40005F1C8 /* GDPickerUITests.m */; };
+		AD5DD9F81F15468D0005F1C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5DD9F71F15468D0005F1C8 /* GoogleService-Info.plist */; };
+		AD5DD9F91F15468D0005F1C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5DD9F71F15468D0005F1C8 /* GoogleService-Info.plist */; };
+		AD5DD9FE1F154B3F0005F1C8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DD9FC1F154B3F0005F1C8 /* HomeViewController.m */; };
+		AD5DD9FF1F154B3F0005F1C8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD5DD9FD1F154B3F0005F1C8 /* HomeViewController.xib */; };
+		AD5DDA041F154FBD0005F1C8 /* GDPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDA021F154FBD0005F1C8 /* GDPickerViewController.m */; };
+		AD5DDA051F154FBD0005F1C8 /* GDPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD5DDA031F154FBD0005F1C8 /* GDPickerViewController.xib */; };
+		AD5DDA091F1559E30005F1C8 /* GDFolderFileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDA071F1559E30005F1C8 /* GDFolderFileCollectionViewCell.m */; };
+		AD5DDA0A1F1559E30005F1C8 /* GDFolderFileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD5DDA081F1559E30005F1C8 /* GDFolderFileCollectionViewCell.xib */; };
+		AD5DDA151F155DE00005F1C8 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDA0E1F155DE00005F1C8 /* SVIndefiniteAnimatedView.m */; };
+		AD5DDA161F155DE00005F1C8 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD5DDA101F155DE00005F1C8 /* SVProgressHUD.bundle */; };
+		AD5DDA171F155DE00005F1C8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDA121F155DE00005F1C8 /* SVProgressHUD.m */; };
+		AD5DDA181F155DE00005F1C8 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDA141F155DE00005F1C8 /* SVRadialGradientLayer.m */; };
+		F4E46789F119DD7D0843AB71 /* libPods-GDPickerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C705F7DFBEBBEFE5B6FECC /* libPods-GDPickerTests.a */; };
+		FF1019657F1022CF578189A7 /* libPods-GDPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 071CCB1BD4393127A82FA4B4 /* libPods-GDPicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B8D1083B813A3E8AD6CBA9 /* Pods-GDPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDPicker/Pods-GDPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		071CCB1BD4393127A82FA4B4 /* libPods-GDPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		165D649436C8CB3254EA23CE /* Pods-GDPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPickerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDPickerUITests/Pods-GDPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		315E6B0BC7871E1DBF452106 /* Pods-GDPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPickerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDPickerUITests/Pods-GDPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7236E91C9E234FD889066E2E /* Pods-GDPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDPicker/Pods-GDPicker.release.xcconfig"; sourceTree = "<group>"; };
+		A6C705F7DFBEBBEFE5B6FECC /* libPods-GDPickerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDPickerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5DD9C11F153FD40005F1C8 /* GDPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5DD9C51F153FD40005F1C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD5DD9C71F153FD40005F1C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,27 @@
 		AD5DD9E51F153FD40005F1C8 /* GDPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5DD9E91F153FD40005F1C8 /* GDPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDPickerUITests.m; sourceTree = "<group>"; };
 		AD5DD9EB1F153FD40005F1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5DD9F71F15468D0005F1C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD5DD9FB1F154B3F0005F1C8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AD5DD9FC1F154B3F0005F1C8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AD5DD9FD1F154B3F0005F1C8 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AD5DDA011F154FBD0005F1C8 /* GDPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPickerViewController.h; sourceTree = "<group>"; };
+		AD5DDA021F154FBD0005F1C8 /* GDPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPickerViewController.m; sourceTree = "<group>"; };
+		AD5DDA031F154FBD0005F1C8 /* GDPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDPickerViewController.xib; sourceTree = "<group>"; };
+		AD5DDA061F1559E30005F1C8 /* GDFolderFileCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFolderFileCollectionViewCell.h; sourceTree = "<group>"; };
+		AD5DDA071F1559E30005F1C8 /* GDFolderFileCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFolderFileCollectionViewCell.m; sourceTree = "<group>"; };
+		AD5DDA081F1559E30005F1C8 /* GDFolderFileCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDFolderFileCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD5DDA0D1F155DE00005F1C8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		AD5DDA0E1F155DE00005F1C8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		AD5DDA0F1F155DE00005F1C8 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		AD5DDA101F155DE00005F1C8 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		AD5DDA111F155DE00005F1C8 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		AD5DDA121F155DE00005F1C8 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		AD5DDA131F155DE00005F1C8 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		AD5DDA141F155DE00005F1C8 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		B0B713175B394747B76BDB64 /* Pods-GDPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPickerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDPickerTests/Pods-GDPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE52E1AA3839970F87025E73 /* Pods-GDPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPickerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDPickerTests/Pods-GDPickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC79721F646C52CC40CCC4A6 /* libPods-GDPickerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDPickerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1019657F1022CF578189A7 /* libPods-GDPicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E46789F119DD7D0843AB71 /* libPods-GDPickerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +116,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D0FF3289A375CD83C3E422 /* libPods-GDPickerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BBFA340099F83F5A58CAFCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				071CCB1BD4393127A82FA4B4 /* libPods-GDPicker.a */,
+				A6C705F7DFBEBBEFE5B6FECC /* libPods-GDPickerTests.a */,
+				FC79721F646C52CC40CCC4A6 /* libPods-GDPickerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FE311044D3C4A3235E579AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01B8D1083B813A3E8AD6CBA9 /* Pods-GDPicker.debug.xcconfig */,
+				7236E91C9E234FD889066E2E /* Pods-GDPicker.release.xcconfig */,
+				B0B713175B394747B76BDB64 /* Pods-GDPickerTests.debug.xcconfig */,
+				BE52E1AA3839970F87025E73 /* Pods-GDPickerTests.release.xcconfig */,
+				165D649436C8CB3254EA23CE /* Pods-GDPickerUITests.debug.xcconfig */,
+				315E6B0BC7871E1DBF452106 /* Pods-GDPickerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD5DD9B81F153FD30005F1C8 = {
 			isa = PBXGroup;
 			children = (
+				AD5DD9F71F15468D0005F1C8 /* GoogleService-Info.plist */,
 				AD5DD9C31F153FD40005F1C8 /* GDPicker */,
 				AD5DD9DD1F153FD40005F1C8 /* GDPickerTests */,
 				AD5DD9E81F153FD40005F1C8 /* GDPickerUITests */,
 				AD5DD9C21F153FD40005F1C8 /* Products */,
+				8FE311044D3C4A3235E579AB /* Pods */,
+				7BBFA340099F83F5A58CAFCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +172,9 @@
 		AD5DD9C31F153FD40005F1C8 /* GDPicker */ = {
 			isa = PBXGroup;
 			children = (
+				AD5DDA0B1F155DCF0005F1C8 /* Third Party */,
+				AD5DDA001F154F8C0005F1C8 /* PickerViewController */,
+				AD5DD9FA1F154A7D0005F1C8 /* HomeViewController */,
 				AD5DD9C71F153FD40005F1C8 /* AppDelegate.h */,
 				AD5DD9C81F153FD40005F1C8 /* AppDelegate.m */,
 				AD5DD9CA1F153FD40005F1C8 /* ViewController.h */,
@@ -140,6 +214,52 @@
 			path = GDPickerUITests;
 			sourceTree = "<group>";
 		};
+		AD5DD9FA1F154A7D0005F1C8 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DD9FB1F154B3F0005F1C8 /* HomeViewController.h */,
+				AD5DD9FC1F154B3F0005F1C8 /* HomeViewController.m */,
+				AD5DD9FD1F154B3F0005F1C8 /* HomeViewController.xib */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		AD5DDA001F154F8C0005F1C8 /* PickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDA011F154FBD0005F1C8 /* GDPickerViewController.h */,
+				AD5DDA021F154FBD0005F1C8 /* GDPickerViewController.m */,
+				AD5DDA031F154FBD0005F1C8 /* GDPickerViewController.xib */,
+				AD5DDA061F1559E30005F1C8 /* GDFolderFileCollectionViewCell.h */,
+				AD5DDA071F1559E30005F1C8 /* GDFolderFileCollectionViewCell.m */,
+				AD5DDA081F1559E30005F1C8 /* GDFolderFileCollectionViewCell.xib */,
+			);
+			name = PickerViewController;
+			sourceTree = "<group>";
+		};
+		AD5DDA0B1F155DCF0005F1C8 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDA0C1F155DE00005F1C8 /* SVProgress */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		AD5DDA0C1F155DE00005F1C8 /* SVProgress */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDA0D1F155DE00005F1C8 /* SVIndefiniteAnimatedView.h */,
+				AD5DDA0E1F155DE00005F1C8 /* SVIndefiniteAnimatedView.m */,
+				AD5DDA0F1F155DE00005F1C8 /* SVProgressHUD-Prefix.pch */,
+				AD5DDA101F155DE00005F1C8 /* SVProgressHUD.bundle */,
+				AD5DDA111F155DE00005F1C8 /* SVProgressHUD.h */,
+				AD5DDA121F155DE00005F1C8 /* SVProgressHUD.m */,
+				AD5DDA131F155DE00005F1C8 /* SVRadialGradientLayer.h */,
+				AD5DDA141F155DE00005F1C8 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgress;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5DD9EE1F153FD40005F1C8 /* Build configuration list for PBXNativeTarget "GDPicker" */;
 			buildPhases = (
+				AAD45C14C914E7A2A8E2D5BA /* [CP] Check Pods Manifest.lock */,
 				AD5DD9BD1F153FD40005F1C8 /* Sources */,
 				AD5DD9BE1F153FD40005F1C8 /* Frameworks */,
 				AD5DD9BF1F153FD40005F1C8 /* Resources */,
+				0DAE25F48843353093A4B685 /* [CP] Embed Pods Frameworks */,
+				E11BEC5C87FB6B8966A50EE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5DD9F11F153FD40005F1C8 /* Build configuration list for PBXNativeTarget "GDPickerTests" */;
 			buildPhases = (
+				5EFC798BAFE0BBC505D2789E /* [CP] Check Pods Manifest.lock */,
 				AD5DD9D61F153FD40005F1C8 /* Sources */,
 				AD5DD9D71F153FD40005F1C8 /* Frameworks */,
 				AD5DD9D81F153FD40005F1C8 /* Resources */,
+				B118428B327A5A76DB51E972 /* [CP] Embed Pods Frameworks */,
+				BDD209F51B45A7A8C600662F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5DD9F41F153FD40005F1C8 /* Build configuration list for PBXNativeTarget "GDPickerUITests" */;
 			buildPhases = (
+				11566EECFB6F8F1B3B1EA87A /* [CP] Check Pods Manifest.lock */,
 				AD5DD9E11F153FD40005F1C8 /* Sources */,
 				AD5DD9E21F153FD40005F1C8 /* Frameworks */,
 				AD5DD9E31F153FD40005F1C8 /* Resources */,
+				0DCA5DC4D19622F4712E180E /* [CP] Embed Pods Frameworks */,
+				4E019F7CE60FB8982BD8BAF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +376,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5DD9D41F153FD40005F1C8 /* LaunchScreen.storyboard in Resources */,
+				AD5DD9F81F15468D0005F1C8 /* GoogleService-Info.plist in Resources */,
+				AD5DD9FF1F154B3F0005F1C8 /* HomeViewController.xib in Resources */,
+				AD5DDA161F155DE00005F1C8 /* SVProgressHUD.bundle in Resources */,
 				AD5DD9D11F153FD40005F1C8 /* Assets.xcassets in Resources */,
 				AD5DD9CF1F153FD40005F1C8 /* Main.storyboard in Resources */,
+				AD5DDA051F154FBD0005F1C8 /* GDPickerViewController.xib in Resources */,
+				AD5DDA0A1F1559E30005F1C8 /* GDFolderFileCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5DD9F91F15468D0005F1C8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +403,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DAE25F48843353093A4B685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPicker/Pods-GDPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DCA5DC4D19622F4712E180E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPickerUITests/Pods-GDPickerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11566EECFB6F8F1B3B1EA87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E019F7CE60FB8982BD8BAF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPickerUITests/Pods-GDPickerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EFC798BAFE0BBC505D2789E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD45C14C914E7A2A8E2D5BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B118428B327A5A76DB51E972 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPickerTests/Pods-GDPickerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD209F51B45A7A8C600662F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPickerTests/Pods-GDPickerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11BEC5C87FB6B8966A50EE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPicker/Pods-GDPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD5DD9BD1F153FD40005F1C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5DDA091F1559E30005F1C8 /* GDFolderFileCollectionViewCell.m in Sources */,
+				AD5DDA181F155DE00005F1C8 /* SVRadialGradientLayer.m in Sources */,
+				AD5DDA171F155DE00005F1C8 /* SVProgressHUD.m in Sources */,
 				AD5DD9CC1F153FD40005F1C8 /* ViewController.m in Sources */,
+				AD5DDA041F154FBD0005F1C8 /* GDPickerViewController.m in Sources */,
 				AD5DD9C91F153FD40005F1C8 /* AppDelegate.m in Sources */,
 				AD5DD9C61F153FD40005F1C8 /* main.m in Sources */,
+				AD5DDA151F155DE00005F1C8 /* SVIndefiniteAnimatedView.m in Sources */,
+				AD5DD9FE1F154B3F0005F1C8 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,28 +703,31 @@
 		};
 		AD5DD9EF1F153FD40005F1C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B8D1083B813A3E8AD6CBA9 /* Pods-GDPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GDPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kp.GDPicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.psllab.thestylistiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		AD5DD9F01F153FD40005F1C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7236E91C9E234FD889066E2E /* Pods-GDPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GDPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kp.GDPicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.psllab.thestylistiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		AD5DD9F21F153FD40005F1C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B713175B394747B76BDB64 /* Pods-GDPickerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GDPickerTests/Info.plist;
@@ -458,6 +740,7 @@
 		};
 		AD5DD9F31F153FD40005F1C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE52E1AA3839970F87025E73 /* Pods-GDPickerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GDPickerTests/Info.plist;
@@ -470,6 +753,7 @@
 		};
 		AD5DD9F51F153FD40005F1C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165D649436C8CB3254EA23CE /* Pods-GDPickerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GDPickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +765,7 @@
 		};
 		AD5DD9F61F153FD40005F1C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315E6B0BC7871E1DBF452106 /* Pods-GDPickerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GDPickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +794,7 @@
 				AD5DD9F01F153FD40005F1C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD5DD9F11F153FD40005F1C8 /* Build configuration list for PBXNativeTarget "GDPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +803,7 @@
 				AD5DD9F31F153FD40005F1C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD5DD9F41F153FD40005F1C8 /* Build configuration list for PBXNativeTarget "GDPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +812,7 @@
 				AD5DD9F61F153FD40005F1C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

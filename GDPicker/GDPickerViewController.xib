@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GDPickerViewController">
+            <connections>
+                <outlet property="backButton" destination="z3t-3v-G3n" id="qYX-q1-b7h"/>
+                <outlet property="folderNameLabel" destination="Dsh-5n-Ee0" id="nNM-PO-1cE"/>
+                <outlet property="googleFilesCollectionView" destination="Laz-sy-E6L" id="3ku-2W-n4v"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rxc-jt-34b" userLabel="Header View">
+                    <rect key="frame" x="0.0" y="20" width="375" height="55"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3t-3v-G3n" userLabel="Back Button">
+                            <rect key="frame" x="10" y="15.5" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="z3t-3v-G3n" secondAttribute="height" multiplier="1:1" id="PVp-nA-Awz"/>
+                                <constraint firstAttribute="width" constant="25" id="o2y-X0-3qX"/>
+                            </constraints>
+                            <state key="normal" image="Back Button Icon"/>
+                            <connections>
+                                <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="yCr-hq-Klb"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dsh-5n-Ee0">
+                            <rect key="frame" x="45" y="19" width="225" height="17.5"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzh-Wa-12s">
+                            <rect key="frame" x="280" y="14.5" width="85" height="26"/>
+                            <color key="backgroundColor" red="0.85098039219999999" green="0.32156862749999998" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="85" id="maQ-Hj-DrJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                            <state key="normal" title="Sign Out">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <real key="value" value="3.5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="signOutTapped:" destination="-1" eventType="touchUpInside" id="bLF-6Q-8Ix"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Kzh-Wa-12s" secondAttribute="trailing" constant="10" id="CAd-0G-J3M"/>
+                        <constraint firstItem="z3t-3v-G3n" firstAttribute="centerY" secondItem="rxc-jt-34b" secondAttribute="centerY" id="Csk-VR-kk1"/>
+                        <constraint firstItem="Kzh-Wa-12s" firstAttribute="centerY" secondItem="rxc-jt-34b" secondAttribute="centerY" id="KSe-HD-S1p"/>
+                        <constraint firstItem="Kzh-Wa-12s" firstAttribute="leading" secondItem="Dsh-5n-Ee0" secondAttribute="trailing" constant="10" id="Lb8-9C-wg9"/>
+                        <constraint firstItem="Dsh-5n-Ee0" firstAttribute="leading" secondItem="z3t-3v-G3n" secondAttribute="trailing" constant="10" id="odj-81-xJP"/>
+                        <constraint firstItem="z3t-3v-G3n" firstAttribute="leading" secondItem="rxc-jt-34b" secondAttribute="leading" constant="10" id="tRf-9b-xjg"/>
+                        <constraint firstAttribute="height" constant="55" id="tSw-Yo-FSZ"/>
+                        <constraint firstItem="Dsh-5n-Ee0" firstAttribute="centerY" secondItem="rxc-jt-34b" secondAttribute="centerY" id="upZ-AQ-VpC"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Laz-sy-E6L">
+                    <rect key="frame" x="5" y="80" width="365" height="582"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8ZK-Vd-dAl">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Laz-sy-E6L" firstAttribute="top" secondItem="rxc-jt-34b" secondAttribute="bottom" constant="5" id="7ik-9d-pzo"/>
+                <constraint firstItem="Laz-sy-E6L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="BTD-kf-avh"/>
+                <constraint firstAttribute="trailing" secondItem="rxc-jt-34b" secondAttribute="trailing" id="M6K-tN-RGD"/>
+                <constraint firstAttribute="trailing" secondItem="Laz-sy-E6L" secondAttribute="trailing" constant="5" id="ZPA-uW-9qk"/>
+                <constraint firstAttribute="bottom" secondItem="Laz-sy-E6L" secondAttribute="bottom" constant="5" id="dFu-Ih-bt0"/>
+                <constraint firstItem="rxc-jt-34b" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="e2E-Rv-T6m"/>
+                <constraint firstItem="rxc-jt-34b" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="stu-eF-YSE"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Back Button Icon" width="25" height="25"/>
+    </resources>
+</document>
